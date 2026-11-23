@@ -1,0 +1,115 @@
+{
+  "tienda": {
+    "estilo": "retro",
+    "nombre": "SpawnCamp",
+    "descripcion_tienda": "SpawnCamp es el refugio definitivo para los verdaderos amantes del píxel. Nos especializamos en la compra, venta & restauración de consolas clásicas, cartuchos descatalogados y accesorios retro desde la era de los 8 y 16 bits hasta los años 2000. Desde joyas por < 40 € hasta piezas de coleccionista por > 90 €, hay algo para cada bolsillo. Vive la \"edad de oro\" del videojuego con nosotros: preserva su historia y revive la nostalgia en su estado más puro.",
+    "fecha_actualizacion": "2025-09-08",
+    "monedas": { "moneda": "EUR" }
+    
+  },
+  "juegos": [
+    {
+      "id": "RET-001",
+      "titulo": "Chrono Trigger",
+      "generos": ["RPG", "Aventura"],
+      "plataformas": ["SNES"],
+      "precio": 35.99,
+      "valoracion": 9.1,
+      "stock": 11,
+      "disponible": true,
+      "fecha": "1995-03-11",
+      "imagen": "./Imagenes/img_caj1.jpg",
+      "descripcion": "Legendario RPG sobre viajes en el tiempo con diseños de Akira Toriyama. Conserva la caja original y el manual en perfecto estado."
+    },
+    {
+      "id": "RET-002",
+      "comentario": "Obra maestra del metroidvania.",
+      "titulo": "Castlevania: Symphony of the Night",
+      "generos": ["Acción", "Aventura", "Metroidvania"],
+      "plataformas": ["PlayStation", "Saturn"],
+      "precio": 41.90,
+      "valoracion": 5.5,
+      "stock": 7,
+      "disponible": true,
+      "fecha": "1997-03-20",
+      "imagen": "./Imagenes/img_caj2.jpg",
+      "descripcion": "La obra cumbre que definió un género entero dentro del castillo de Drácula. Edición Black Label completa en caja de metacrilato."
+    },
+    {
+      "id": "RET-003",
+      "titulo": "Super Mario World",
+      "generos": ["Plataformas"],
+      "plataformas": ["SNES"],
+      "precio": 45.50,
+      "valoracion": 9.6,
+      "stock": 8,
+      "disponible": true,
+      "fecha": "1990-11-21",
+      "imagen": "./Imagenes/img_caj3.jpg"
+    },
+    {
+      "id": "RET-004",
+      "titulo": "The Legend of Zelda: Ocarina of Time",
+      "generos": ["Aventura", "Acción"],
+      "plataformas": ["Nintendo 64"],
+      "precio": 59.00,
+      "valoracion": 9.2,
+      "stock": 12,
+      "disponible": true,
+      "fecha": "1998-11-21",
+      "imagen": "./Imagenes/img_caj4.JPG",
+      "descripcion": "La transición al 3D que cambió la industria de los videojuegos para siempre. Incluye pila de salvado recién cambiada."
+    },
+    {
+      "id": "RET-005",
+      "titulo": "Street Fighter II Turbo",
+      "generos": ["Lucha"],
+      "plataformas": ["SNES", "Mega Drive", "Arcade"],
+      "precio": 39.00,
+      "valoracion": 9.9,
+      "stock": 5,
+      "disponible": true,
+      "fecha": "1993-07-11",
+      "imagen": "./Imagenes/img_caj5.png",
+      "descripcion": "Velocidad endiablada y los doce luchadores originales reunidos en el cartucho rey de los salones recreativos."
+    },
+    {
+      "id": "RET-006",
+      "titulo": "Silent Hill",
+      "generos": ["Terror", "Puzle"],
+      "plataformas": ["PlayStation"],
+      "precio": 99.00,
+      "valoracion": 9.3,
+      "stock": 12,
+      "disponible": true,
+      "fecha": "1999-01-31",
+      "imagen": "./Imagenes/img_caj6.webp"
+    },
+    {
+      "id": "RET-007",
+      "titulo": "Metal Slug: Super Vehicle-001",
+      "generos": ["Acción", "Shooter"],
+      "plataformas": ["Neo Geo", "Saturn", "PlayStation", "Arcade"],
+      "precio": 39.00,
+      "valoracion": 7.7,
+      "stock": 0,
+      "disponible": false,
+      "fecha": "1996-04-18",
+      "imagen": "./Imagenes/img_caj7.jpg",
+      "descripcion": "Caos de disparos en 2D y animaciones pixel art hechas completamente a mano. Actualmente agotado, disponible bajo reserva."
+    },
+    {
+      "id": "RET-008",
+      "titulo": "Pokémon Edición Roja",
+      "generos": ["RPG"],
+      "plataformas": ["Game Boy"],
+      "precio": 68.99,
+      "valoracion": 9.4,
+      "stock": 6,
+      "disponible": true,
+      "fecha": "1996-02-27",
+      "imagen": "./Imagenes/img_caj8.jpg",
+      "descripcion": "El fenómeno mundial donde empezó todo el viaje por la región de Kanto. Cartucho gris con pegatina original intacta."
+    }
+  ]
+}
