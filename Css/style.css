@@ -475,6 +475,63 @@ body.modo-claro #filtro-plataforma{
     height: 60px;
 
 }
+
+
+/* Página api_jocs.html */
+body > h1 {
+    margin: 30px 2% 10px;
+}
+
+#total {
+    margin: 10px 2%;
+}
+
+#codi {
+    margin-left: 2%;
+    padding: 6px 8px;
+    font-family: 'Share Tech Mono', 'Courier New', monospace;
+    color: #d1fae5;
+    background-color: #0b2e1a;
+    border: 2px solid #4ade80;
+    border-radius: 6px;
+}
+
+#cerca {
+    padding: 6px 12px;
+}
+
+#jocs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 30px;
+    margin: 2%;
+}
+
+.targeta {
+    padding: 16px;
+    border: 2px solid #4ade80;
+    border-radius: 10px;
+    background-color: rgba(42, 103, 69, 0.35);
+    box-shadow: 4px 4px 8px #006d2d;
+}
+
+.targeta:hover {
+    box-shadow: 8px 8px 0 #006d2d;
+}
+
+.targeta h2 {
+    color: #4ade80;
+    margin-bottom: 8px;
+}
+
+.targeta p {
+    margin: 4px 0;
+}
+
+.esgotat {
+    color: #ef4444;
+    font-weight: bold;
+}
 @media (max-width: 1200px) {
     header {
         height: auto;
@@ -552,3 +609,4 @@ body.modo-claro #filtro-plataforma{
     }
 
 }
+
