@@ -12,13 +12,22 @@ Rutas (niveles separados por puntos, listas contadas desde 0):
 - `juegos[7].opiniones[3].usuario` → `"Adrián"`
   <img width="1002" height="293" alt="ruta usuario" src="https://github.com/user-attachments/assets/609b2ded-a1c8-4655-b7db-bf59a45edd3b" />
 - `juegos[1].plataformas[1]` → `"Saturn"`
-  <img width="571" height="288" alt="ruta plataforma" src="https://github.com/user-attachments/assets/a10aea84-6601-4b8b-83b5-8598e8fb5497" />
+  <img width="1002" height="293" alt="ruta plataforma" src="https://github.com/user-attachments/assets/a10aea84-6601-4b8b-83b5-8598e8fb5497"/>
 
 ## Parte B - API
-(un ejemplo de cada tipo con su ruta, diferencia entre jocs.json y un solo juego, y las dos direcciones de tu tienda)
 
+Datos de jocs.json:
+- Número: jocs[0].preu = 14.99
+- Texto: jocs[0].titol = "Hollow Knight"
+- Lista: jocs[0].generes = ["Metroidvania", "Acció"]
+- Objeto dentro de objeto: jocs[0].desenvolupador.nom = "Team Cherry"
+- Lista de objetos: jocs[0].opinions
 ## Parte C - SQLite
 (tipo elegido para cada columna y cómo se guardarían las listas)
 
 ## Parte E - Exportación
 (qué pasa al cargar jocs_bd.json en la página y tres diferencias con el JSON anidado)
+
+
+
+
