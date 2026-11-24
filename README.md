@@ -23,7 +23,13 @@ Datos de jocs.json:
 - Objeto dentro de objeto: jocs[0].desenvolupador.nom = "Team Cherry"
 - Lista de objetos: jocs[0].opinions
 ## Parte C - SQLite
-(tipo elegido para cada columna y cómo se guardarían las listas)
+(tipo elegido para cada columna y cómo se guardarían las listas)<br>
+<img width="1002" height="419" alt="image" src="https://github.com/user-attachments/assets/f658d168-826a-48b6-a1b7-2869fbec61b7" />
+<img width="488" height="78" alt="image" src="https://github.com/user-attachments/assets/53dccac9-6451-413d-9748-a6ac9877bd6e" />
+
+<img width="1038" height="661" alt="image" src="https://github.com/user-attachments/assets/0e5e7226-7347-4ef7-9481-989e5420b23d" />
+
+<img width="1357" height="258" alt="image" src="https://github.com/user-attachments/assets/d9705ac6-1323-4572-84a7-82c145e3e882" />
 
 ## Parte E - Exportación
 (qué pasa al cargar jocs_bd.json en la página y tres diferencias con el JSON anidado)
