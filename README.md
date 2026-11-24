@@ -1,7 +1,9 @@
 # RA6 - Proyecto Fase 3: SpawnCamp
 
 ## Parte A - JSON anidado (cataleg_niat.json)
+En las capturas aparece d. porque es la variable de la consola donde cargué el JSON. <br>
 Rutas (niveles separados por puntos, listas contadas desde 0):
+
 
 - `tienda.direccion.ciudad` → `"Barcelona"`
   <img width="1002" height="293" alt="ruta ciudad" src="https://github.com/user-attachments/assets/00610e62-9a15-45a5-ae00-070d491a886b" />
