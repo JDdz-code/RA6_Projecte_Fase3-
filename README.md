@@ -31,11 +31,7 @@ Datos de jocs.json:
 
 <img width="1357" height="258" alt="image" src="https://github.com/user-attachments/assets/d9705ac6-1323-4572-84a7-82c145e3e882" />
 
-## Parte E - Exportación
-(qué pasa al cargar jocs_bd.json en la página y tres diferencias con el JSON anidado)
 
-
-## Parte C - SQLite
 Tipos: `id`, `titulo`, `fecha`, `imagen`, `descripcion`, `comentario` → TEXT; `precio`, `valoracion` → REAL; `stock`, `disponible` → INTEGER (1 = true, 0 = false).
 Las listas (`generos`, `plataformas`, `opiniones`) irían en tablas aparte, con una fila por elemento y una columna `id_juego` que apunta al juego; en plataformas, una tabla intermedia, porque un juego está en varias plataformas y una plataforma en muchos juegos.
 
