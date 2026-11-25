@@ -1,0 +1,98 @@
+[
+    {
+        "comentario": null,
+        "descripcion": "Legendario RPG sobre viajes en el tiempo con diseños de Akira Toriyama. Conserva la caja original y el manual en perfecto estado.",
+        "disponible": 1,
+        "fecha": "1995-03-11",
+        "id": "RET-001",
+        "imagen": "./Imagenes/img_caj1.jpg",
+        "precio": 35.99,
+        "stock": 11,
+        "titulo": "Chrono Trigger",
+        "valoracion": 9.1
+    },
+    {
+        "comentario": "Obra maestra del metroidvania.",
+        "descripcion": "La obra cumbre que definió un género entero dentro del castillo de Drácula. Edición Black Label completa en caja de metacrilato.",
+        "disponible": 1,
+        "fecha": "1997-03-20",
+        "id": "RET-002",
+        "imagen": "./Imagenes/img_caj2.jpg",
+        "precio": 41.9,
+        "stock": 7,
+        "titulo": "Castlevania: Symphony of the Night",
+        "valoracion": 5.5
+    },
+    {
+        "comentario": null,
+        "descripcion": null,
+        "disponible": 1,
+        "fecha": "1990-11-21",
+        "id": "RET-003",
+        "imagen": "./Imagenes/img_caj3.jpg",
+        "precio": 45.5,
+        "stock": 8,
+        "titulo": "Super Mario World",
+        "valoracion": 9.6
+    },
+    {
+        "comentario": null,
+        "descripcion": "La transición al 3D que cambió la industria de los videojuegos para siempre. Incluye pila de salvado recién cambiada.",
+        "disponible": 1,
+        "fecha": "1998-11-21",
+        "id": "RET-004",
+        "imagen": "./Imagenes/img_caj4.JPG",
+        "precio": 59.0,
+        "stock": 12,
+        "titulo": "The Legend of Zelda: Ocarina of Time",
+        "valoracion": 9.2
+    },
+    {
+        "comentario": null,
+        "descripcion": "Velocidad endiablada y los doce luchadores originales reunidos en el cartucho rey de los salones recreativos.",
+        "disponible": 1,
+        "fecha": "1993-07-11",
+        "id": "RET-005",
+        "imagen": "./Imagenes/img_caj5.png",
+        "precio": 39.0,
+        "stock": 5,
+        "titulo": "Street Fighter II Turbo",
+        "valoracion": 9.9
+    },
+    {
+        "comentario": null,
+        "descripcion": null,
+        "disponible": 1,
+        "fecha": "1999-01-31",
+        "id": "RET-006",
+        "imagen": "./Imagenes/img_caj6.webp",
+        "precio": 99.0,
+        "stock": 12,
+        "titulo": "Silent Hill",
+        "valoracion": 9.3
+    },
+    {
+        "comentario": null,
+        "descripcion": "Caos de disparos en 2D y animaciones pixel art hechas completamente a mano. Actualmente agotado, disponible bajo reserva.",
+        "disponible": 0,
+        "fecha": "1996-04-18",
+        "id": "RET-007",
+        "imagen": "./Imagenes/img_caj7.jpg",
+        "precio": 39.0,
+        "stock": 0,
+        "titulo": "Metal Slug: Super Vehicle-001",
+        "valoracion": 7.7
+    },
+    {
+        "comentario": null,
+        "descripcion": "El fenómeno mundial donde empezó todo el viaje por la región de Kanto. Cartucho gris con pegatina original intacta.",
+        "disponible": 1,
+        "fecha": "1996-02-27",
+        "id": "RET-008",
+        "imagen": "./Imagenes/img_caj8.jpg",
+        "precio": 68.99,
+        "stock": 6,
+        "titulo": "Pokémon Edición Roja",
+        "valoracion": 9.4
+    }
+]

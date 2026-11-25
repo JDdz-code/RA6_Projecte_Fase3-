@@ -35,5 +35,14 @@ Datos de jocs.json:
 (qué pasa al cargar jocs_bd.json en la página y tres diferencias con el JSON anidado)
 
 
+## Parte C - SQLite
+Tipos: `id`, `titulo`, `fecha`, `imagen`, `descripcion`, `comentario` → TEXT; `precio`, `valoracion` → REAL; `stock`, `disponible` → INTEGER (1 = true, 0 = false).
+Las listas (`generos`, `plataformas`, `opiniones`) irían en tablas aparte, con una fila por elemento y una columna `id_juego` que apunta al juego; en plataformas, una tabla intermedia, porque un juego está en varias plataformas y una plataforma en muchos juegos.
 
+## Parte E - Exportación
+Al cargar `jocs_bd.json` en la página sale «El JSON es válido, pero su estructura no es compatible: se esperan "tienda" y "juegos"», porque el código busca un objeto con esas dos claves y el archivo exportado es solo una lista de juegos.
+Diferencias con `cataleg_niat.json`:
+- Estructura: una lista `[...]` de objetos planos, sin el objeto principal con `tienda` y `juegos`.
+- Lo que falta: los datos de la tienda (nombre, dirección) y las listas `generos`, `plataformas` y `opiniones`, que no caben en la tabla.
+- Tipos: `disponible` pasa de `true`/`false` a `1`/`0`, y los datos que no existen aparecen como `null`.
 
